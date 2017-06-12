@@ -1,0 +1,20 @@
+{
+  "name": "memphisviews",
+  "version": "1.0.0",
+  "description": "memphisviews.space",
+  "main": "index.js",
+  "scripts": {
+    "less": "lessc style.less style.css"
+  },
+  "keywords": [
+    "memphis",
+    "photography",
+    "interview",
+    "midtown"
+  ],
+  "author": "Kylie Pace",
+  "license": "ISC",
+  "dependencies": {
+    "less": "^2.7.2"
+  }
+}
