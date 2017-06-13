@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lora|Special+Elite');
 @type: 'Special Elite', cursive;
 @serif: 'Lora', serif;
+@cream: #cdddd9;
+
 body{
 	width: 100vw;
 	height: 100vh;
@@ -21,10 +23,7 @@ body{
 	background-repeat: no-repeat;
 	filter: blur(5px);
 	-webkit-filter: blur(12px);
-	height: 800px;
-	left: 0;
 	position: fixed;
-	right: 0;
 	z-index: 1;
 }
 
@@ -34,6 +33,45 @@ body{
   margin: 0 auto;
   position: relative;
   font-family: @serif;
+}
+header{
+	h1{
+		font-size: 4em;
+		text-shadow: 1px 1px 10px silver;
+	}
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: baseline;
+	nav{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		h2{
+			padding-left: 50px;
+			font-size: 2em;
+		}
+	}
+	a:hover{
+		text-shadow: 1px 1px 10px silver;
+		cursor: pointer;
+	}
+}
+footer{
+	z-index: 3;
+	position: relative;
+	background-color: black;
+	margin: 0;
+	height: 50px;
+	h2{
+		color: @cream;
+	}
+}
+.header,
+.footer {
+  flex: 0 1 100%;
+  // grid-column: 1 / -1;
+  font-family: @type;
 }
 #wrapper{
 	display: grid;
@@ -79,15 +117,6 @@ body{
 .tall-panel {
   grid-row-end: span 2;
   grid-column-end: span 2;
-}
-
-.header,
-.footer {
-  margin-left: 5px;
-  margin-right: 5px;
-  flex: 0 1 100%;
-  // grid-column: 1 / -1;
-  font-family: @type;
 }
 
 #wrapper > * {
