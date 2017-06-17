@@ -49,6 +49,12 @@ header nav h2 {
 }
 header a:hover {
   text-shadow: 1px 1px 10px silver;
+}
+a {
+  text-decoration: none;
+  color: #111;
+}
+a:hover {
   cursor: pointer;
 }
 footer {
@@ -59,7 +65,7 @@ footer {
   height: 50px;
 }
 footer h2 {
-  color: '#cdddd9';
+  color: #cdddd9;
 }
 .header,
 .footer {
@@ -92,13 +98,8 @@ footer h2 {
   margin: 0;
   border-radius: 5px;
 }
-.panel a {
-  text-decoration: none;
-  color: #fff;
-}
 .panel a:hover {
   text-decoration: underline;
-  cursor: pointer;
 }
 .panel a:hover img {
   box-shadow: 1px 1px 10px grey;
@@ -106,9 +107,19 @@ footer h2 {
 .panel a:hover h2 {
   text-shadow: 1px 1px 10px grey;
 }
+.panel:focus {
+  border: 0px solid white;
+}
 .tall-panel {
   grid-row-end: span 2;
   grid-column-end: span 2;
+}
+.text {
+  background-color: rgba(111, 100, 85, 0.5);
+}
+.text p {
+  margin: 20px;
+  color: #222;
 }
 #wrapper > * {
   color: #fff;
@@ -122,4 +133,85 @@ footer h2 {
   #wrapper > * {
     margin: 0;
   }
+}
+/* modal */
+.modal {
+  display: none;
+}
+.modal-hider {
+  position: absolute;
+  left: -99999em;
+}
+.vanilla-modal .modal {
+  display: block;
+  position: fixed;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #1c1c1a;
+  height: 40vh;
+  width: 40vw;
+  margin: auto;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.2s, z-index 0s 0.2s;
+  text-align: center;
+  overflow: hidden;
+  overflow-y: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+.vanilla-modal .modal > * {
+  display: inline-block;
+  white-space: normal;
+  vertical-align: middle;
+  text-align: left;
+}
+.vanilla-modal .modal:before {
+  display: inline-block;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  vertical-align: middle;
+  content: "";
+}
+.vanilla-modal.modal-visible .modal {
+  z-index: 99;
+  opacity: 1;
+  transition: opacity 0.2s;
+}
+.modal-inner {
+  position: relative;
+  overflow: hidden;
+  width: 90%;
+  height: 90%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: -1;
+  opacity: 0;
+  transform: scale(0);
+  transition: opacity 0.2s, transform 0.2s, z-index 0s 0.2s;
+}
+.modal-visible .modal-inner {
+  z-index: 100;
+  opacity: 1;
+  color: #cdddd9;
+  transform: scale(1);
+  transition: opacity 0.2s, transform 0.2s;
+}
+[data-modal-close] {
+  position: absolute;
+  display: block;
+  z-index: 2;
+  right: 0;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  line-height: 25px;
+  font-size: 13px;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: -1px 1px 2px rgba(0, 0, 0, 0.2);
 }

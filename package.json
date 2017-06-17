@@ -15,6 +15,7 @@
   "author": "Kylie Pace",
   "license": "ISC",
   "dependencies": {
-    "less": "^2.7.2"
+    "less": "^2.7.2",
+    "vanilla-modal": "^1.6.4"
   }
 }
