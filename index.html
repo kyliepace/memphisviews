@@ -9,6 +9,7 @@
 <body>
 	<div id='background'></div>
 	<div id='content'>
+		
 		<header class="header">
 			<a><h1>Memphis Views</h1></a>
 			<nav>
@@ -19,37 +20,47 @@
 		</header>
 
 		<div class="modal">
+
 		    <div class="modal-inner">
-		        <span data-modal-close>&times;</span>
+		    	<div class='closer'>
+		       		<span data-modal-close>&times;</span>
+		       	</div>
 		        <div class="modal-content"></div>
 		    </div>
-		</div>
-
-		<div id='modal' class='vanialla-modal modal-hider'>
-			<p>If you would like your views to be a part of this project, or you would like more information,  please contact:</p>
-			<p>Peter</p>
-			<p>MemphisViews@outlook.com</p>
-			<p>901-304-6266</p>
 		</div>
 
 		<div id='wrapper'>
 		  
 			<div class="panel" >
-				<a href='#'>
-					<img src='./assets/images/AHutcheson_sm.jpg'/>
+				<div id='Hutcheson' class='vanilla-modal modal-hider'>
+				</div>
+				<a href='#Hutcheson'>
+					<img src='./assets/images/Hutcheson.jpg'/>
 				</a>
 			</div>
 
 			<div class="panel tall-panel" >
-				<img src='./assets/images/front.jpg'/>
+				<div id='Front' class='vanilla-modal modal-hider'>
+				</div>
+				<a href='#Front'>
+					<img src='./assets/images/front.jpg'/>
+				</a>
 			</div>
 
 			<div class="panel">
-				<img src='./assets/images/Ted_Davis.jpg'/>
+				<div id='Ted' class='vanilla-modal modal-hider'>
+				</div>
+				<a href='#Ted' data-modal-open>
+					<img src='./assets/images/Ted.jpg'/>
+				</a>
 			</div>
 
 			<div class="panel" >
-				<img src='./assets/images/KFebles_sm.jpg'/>
+				<div id='K' class='vanilla-modal modal-hider'>
+				</div>
+				<a href='#K'>
+					<img src='./assets/images/KFebles_sm.jpg'/>
+				</a>
 			</div>
 
 			<div class="panel">
@@ -57,23 +68,17 @@
 			</div>
 
 			<div class="panel">
-				<img src='./assets/images/Linley_Schmidt_3_2017_2_sm.jpg'/>
+				<img src='./assets/images/Linley_3_2017_2_sm.jpg'/>
 			</div>
 
 			<div class="panel">
-				<a>
-					<img src='./assets/images/R_King_sm.jpg'/>
+				<a href='#Ronnie' data-modal-open>
+					<img src='./assets/images/Ronnie.jpg'/>
 				</a>
 			</div>
 
 			<div class="panel tall-panel">
-				<img src='./assets/images/MV_KGolightly_sm.jpg'/>
-			</div>
-
-			<div class="panel">
-				<a href='#'>
-					<img src='./assets/images/ES1b.jpg'/>
-				</a>
+				<img src='./assets/images/KGolightly.jpg'/>
 			</div>
 
 			<div class="panel tall-panel text" id='project' tabindex="0">
@@ -81,27 +86,27 @@
 				<p>As the project continues and more voices are added, a more comprehensive understanding of who we are will emerge.</p>
 				
 				<p>If you are interested in participating, please 
-				<a href="#modal" data-modal-open>contact me</a>.
+				<a href="#contact" data-modal-open>contact me</a>.
 				</p>
 			</div>
 
+
 			<div class="panel">
-				<img src='./assets/images/truth.jpg'/>
-			</div>
-
-			<div class='panel tall-panel'>
-			</div>
-
-
-
-			<div class="panel tall-panel">
-				<img src='./assets/images/Yvonne_photo.jpg'/>
+				<img src='./assets/images/Yvonne.jpg'/>
 			</div>
 		</div>
 	</div>
 	<!-- <footer class="footer">
 		<h2>Contact</h2>
 	</footer> -->
+
+	<div id='contact' class='vanilla-modal modal-hider'>
+		<p>If you would like your views to be a part of this project, or you would like more information,  please contact:</p>
+		<p>Peter</p>
+		<p>MemphisViews@outlook.com</p>
+		<p>901-304-6266</p>
+	</div>
+
 	<script src="./modal.js"></script>
 	<script type="text/javascript" src="./script.js"></script>
 </body>

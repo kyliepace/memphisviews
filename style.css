@@ -29,6 +29,7 @@ body {
   font-family: 'Lora', serif;
 }
 header {
+  text-shadow: 1px 1px 10px silver;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -36,7 +37,6 @@ header {
 }
 header h1 {
   font-size: 4em;
-  text-shadow: 1px 1px 10px silver;
 }
 header nav {
   display: flex;
@@ -48,7 +48,8 @@ header nav h2 {
   font-size: 2em;
 }
 header a:hover {
-  text-shadow: 1px 1px 10px silver;
+  text-shadow: none;
+  text-decoration: underline;
 }
 a {
   text-decoration: none;
@@ -115,11 +116,14 @@ footer h2 {
   grid-column-end: span 2;
 }
 .text {
-  background-color: rgba(111, 100, 85, 0.5);
+  background-color: rgba(111, 100, 85, 0.7);
 }
 .text p {
   margin: 20px;
-  color: #222;
+  color: #111;
+}
+.text a {
+  text-decoration: underline;
 }
 #wrapper > * {
   color: #fff;
@@ -151,15 +155,16 @@ footer h2 {
   right: 0;
   bottom: 0;
   background-color: #1c1c1a;
-  height: 40vh;
-  width: 40vw;
+  height: 90vh;
+  width: 90vw;
+  min-width: 300px;
+  min-height: 300px;
   margin: auto;
+  padding: 20px;
   z-index: -1;
   opacity: 0;
   transition: opacity 0.2s, z-index 0s 0.2s;
-  text-align: center;
   overflow: hidden;
-  overflow-y: auto;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
 }
@@ -185,14 +190,46 @@ footer h2 {
 .modal-inner {
   position: relative;
   overflow: hidden;
-  width: 90%;
-  height: 90%;
-  overflow-x: hidden;
-  overflow-y: auto;
+  height: 100%;
+  width: 100%;
   z-index: -1;
   opacity: 0;
   transform: scale(0);
   transition: opacity 0.2s, transform 0.2s, z-index 0s 0.2s;
+}
+.modal-inner .closer {
+  height: 50px;
+}
+.modal-inner .modal-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.modal-inner .modal-content img {
+  width: 40%;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.modal-inner .modal-content .interview {
+  height: 90vh;
+  overflow-y: scroll;
+  width: 100%;
+  min-width: 300px;
+  max-width: 600px;
+  padding: 20px 0;
+}
+.modal-inner .modal-content .question {
+  font-style: italic;
+  color: silver;
+}
+@media (max-width: 600px) {
+  .modal-content {
+    flex-wrap: wrap-reverse;
+    align-items: flex-end;
+  }
+  .modal-content img {
+    width: 200px;
+  }
 }
 .modal-visible .modal-inner {
   z-index: 100;
@@ -207,11 +244,11 @@ footer h2 {
   z-index: 2;
   right: 0;
   top: 0;
-  width: 50px;
-  height: 50px;
+  width: 100%;
+  text-align: right;
+  height: 20px;
   line-height: 25px;
-  font-size: 13px;
+  font-size: 25px;
   cursor: pointer;
-  text-align: center;
   box-shadow: -1px 1px 2px rgba(0, 0, 0, 0.2);
 }
