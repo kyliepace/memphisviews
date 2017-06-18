@@ -5,6 +5,9 @@ collections:
   interviews:
     title: Interviews
     output: true
+    Field name:
+      Questions: 
+      Answers: 
   posts:
     title: Posts
     output: true
