@@ -1,0 +1,16 @@
+---
+title: Memphisviews
+timezone: UTC
+collections:
+  interviews:
+    title: Interviews
+    output: false
+    Field name:
+      questions: 
+      answers: 
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true

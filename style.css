@@ -188,14 +188,17 @@ footer h2 {
   transition: opacity 0.2s;
 }
 .modal-inner {
+  font-family: 'Lora', serif;
   position: relative;
   overflow: hidden;
+  /* change overflow to auto here if you want modal to scroll together as one */
   height: 100%;
   width: 100%;
   z-index: -1;
   opacity: 0;
   transform: scale(0);
   transition: opacity 0.2s, transform 0.2s, z-index 0s 0.2s;
+  /* scrollbar */
 }
 .modal-inner .closer {
   height: 50px;
@@ -213,14 +216,25 @@ footer h2 {
 .modal-inner .modal-content .interview {
   height: 90vh;
   overflow-y: scroll;
+  /* comment this out if you want whole module to scroll together*/
   width: 100%;
-  min-width: 300px;
   max-width: 600px;
   padding: 20px 0;
 }
 .modal-inner .modal-content .question {
   font-style: italic;
   color: silver;
+}
+.modal-inner ::-webkit-scrollbar {
+  width: 12px;
+}
+.modal-inner ::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.modal-inner ::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px white;
 }
 @media (max-width: 600px) {
   .modal-content {
