@@ -4,7 +4,7 @@
   "description": "memphisviews.space",
   "main": "index.js",
   "scripts": {
-    "less": "lessc style.less style.css"
+    "less": "lessc style/style.less style/style.css"
   },
   "keywords": [
     "memphis",
