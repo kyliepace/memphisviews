@@ -168,12 +168,40 @@ createInterview('Golightly', 'Cooper Young', [
 	'Maybe those Makedas cookies? Or the people.  I have made so many friends. And the grittiness.  It is not gentile but also with that southern hospitality. And if you could put that in a cookie it would be Makeda’s cookies.'
 ]);
 
+createInterview('Yvonne', 'Midtown', [
+	'What is your hometown?',
+	'Stark, FL, I call it “prison country”. North central Florida, we have a lot of prisons there. It is a great place to move out of.',
+	'If you could move to another city, would you?',
+	'Yes',
+	'What city?',
+	'I am currently looking to relocate to St. Petersburg, FL.  I have a sailboat and I am tired of living landlocked like some kind of farmer.',
+	'What neighborhood do you live in?',
+	'I live in Midtown, There is no name for my neighborhood.  I am sandwiched somewhere between the Medical District and Annesdale.',
+	'How long have you lived in Memphis? ',
+	'17 years.',
+	'How would you describe the City of Memphis in three words? ',
+	'I’ll tell you what makes it hard to leave Memphis; great music everywhere, everything you want to do is close, at my business, all my metal suppliers, this is a metal city,  I am a metal artist. You can live in other places and you have to bring stuff in, we are like the transportation junction of the United States. North and South meets east and west. That’s one reason why we have great music too. We are on the road between places. And so we have such great transportation here is because we don’t have an ocean which is why I would like to leave here.  Yeah, Memphis is an interesting town, its very manageable. ',
+	'What were your first impressions of Memphis? ',
+	'Kind of a grimy, kind of a  gritty town. I was drawn a little bit to that. And being in the south again.  I went to college in Boston and then travelled quite a lot, around the world, I guess. I kind of liked being in the mid-South again. People are friendly again. It seemed like a good place. ',
+	'What is your current impression of Memphis? ',
+	'It has changed a lot.  As an artist, when I first came here people were talking about art as if it were some sort of hideous crap that costs money and no one likes. Literally that is pretty much what the City Council was saying in the late 90s. That is when they introduced 1% for art and they started building budgets for art and this city has transformed in the last 15 years.  Like downtown was a whole ‘nother place. Now there is public art everywhere. There is a lot more stuff going on. Like it feels more like a bigger city.  Things are happening and it is growing. I think my career has been carried by that. So I think it is good.  It is a very livable city. ',
+	'Do you feel Memphis has improved while you have lived here? ',
+	'Oh, yes.it is just a whole ‘nother city. Visually, so many places that were falling down have transformed or been renovated.',
+	'What is your funniest story about living in Memphis? ',
+	'There is this guy named Larry and I used to be in Cooper Young. That is where my studio was for a long time. And he always steals flowers out of people’s yards and then tries to sell them to people. He would come by my shop and want to clean up so sometimes I would give him 5 bucks and he would take the trash out. One day he shows up and tries to sell me a bicycle. And I said, it looks like my ex-boyfriend’s bicycle. So I called him and said “where’s your bicycle” and he goes “somebody stole it.”  And I said tell me exactly what it looks like. He’s like there’s a busted wheel fender on it. A beach cruiser looking. I was like, “I got it.” So I said OK Larry, I will give you $10 for this bicycle. He goes, “but I want 40”. I said “yeah, but it’s stolen.” So you either get the 10 bucks and you walk away or I call the cops  and you get a free ride somewhere. And so he struggled with the bicycle with me for a second and I called the police and then he left.  And then 3 days later he came back and apologized.',
+	'If you could change something about Memphis, what would it be? ',
+	'The crime is getting kind of annoying I have to say. This last weekend I got my truck broken into. Makes me kind of angry.  So I wish that, there was some.. It is getting worrisome.  Vandalism, it makes me angry. ',
+	'This web site only captures a snapshot in time.  What would you like someone twenty years from now who reads this to know about you? ',
+	'I guess that Memphis really gave me a chance to be an artist all the time. Which is really awesome. ',
+	'What is your favorite thing about Memphis? ',
+	'I am sure it is the music.  That is what makes it so hard to move back to Florida.'
+]);
 
 
 // createInterview('Hutcheson', neighborhood, [
 // ]);
 
-// createInterview('Front', neighborhood, [
+// createInterview('Mike', neighborhood, [
 // ]);
 
 /* template

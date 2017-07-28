@@ -81,6 +81,15 @@ footer h2 {
   column-count: 2;
   max-width: 80%;
   display: block;
+  -webkit-columns: 2;
+  /* Chrome, Safari, Opera */
+  -moz-columns: 2;
+  /* Firefox */
+  -webkit-column-gap: 40px;
+  /* Chrome, Safari, Opera */
+  -moz-column-gap: 40px;
+  /* Firefox */
+  column-gap: 40px;
 }
 #wrapper.interviews a {
   display: block;
@@ -221,6 +230,7 @@ footer h2 {
 }
 .modal-inner .modal-content img {
   width: 40%;
+  max-width: 400px;
   margin-left: 20px;
   margin-bottom: 10px;
 }
