@@ -189,8 +189,8 @@ footer{
   right: 0;
   bottom: 0;
   background-color: @modalBackground;
-  height: 90vh;
-  width: 90vw;
+  max-height: 90vh;
+  max-width: 90vw;
   min-width: 300px;
   min-height: 300px;
   margin: auto;
@@ -205,6 +205,10 @@ footer{
   -webkit-overflow-scrolling: touch;
 }
 
+
+.smallModal{
+  max-width: 300px;
+}
 .vanilla-modal .modal > * {
   display: inline-block;
   white-space: normal;
