@@ -174,7 +174,7 @@ createInterview('Ted', 'Central Gardens', [
 	'I love the food!  I love Memphis food.  When I used to live in Greensboro, North Carolina I daydreamed about a Huey’s hamburger or a Rendezvous rib or a Gibson’s doughnut or a Gus’s fried chicken. I just think that Memphis has the most incredible food from places that are total hole in the walls to best dining.  My fiancé’s friends, when they come from New York they go to Tsunami and they think Tsunami is one of the best restaurants in the country. My favorite things about Memphis are the people and the places I can eat.'
 ]);
 
-createInterview('Febles', 'East Memphis', [
+createInterview('Karen', 'East Memphis', [
 	'What is your hometown?',
 	'Merida, Yucatan, Mexico',
 	'If you could move to another city, would you?',
