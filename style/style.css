@@ -238,7 +238,7 @@ footer h2 {
   margin-bottom: 10px;
 }
 .modal-inner .modal-content .interview {
-  height: 90vh;
+  height: 75vh;
   overflow-y: scroll;
   /* comment this out if you want whole module to scroll together*/
   width: 100%;
