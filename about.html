@@ -14,7 +14,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 </head>
 <body>
-	<!-- Google Tag Manager (noscript) -->
+<!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TH3KTQD"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
@@ -24,17 +24,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<header class="header">
 			<a href='./index.html'><h1>Memphis Views</h1></a>
 			<nav>
-				<a href='./index.html'>
-					<h2>Home</h2>
+				<a href='./interviews.html'>
+					<h2>Interviews</h2>
 				</a>
-				<!-- <a href='#project' class='navLink'><h2>The Project</h2></a> -->
+				<a href='./about.html'><h2>About</h2></a>
 				<a><h2>Memphis</h2></a>
 			</nav>
 		</header>
-
-		<div id='wrapper' class='interviews'>
-			<!-- links to modal inserted here -->
-		</div>
 
 		<div class="modal">
 		    <div class="modal-inner">
@@ -45,16 +41,30 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		    </div>
 		</div>
 
+		<div id='wrapper'>
+		  
+			<div class="panel tall-panel text" id='project' tabindex="0">
+				<p>The purpose of MemphisViews is two-fold.  It is to give voice to a wide range of Memphis residents, some of whom rarely get heard.  The other purpose is for historians, anthropologist, geographers, politicians and anyone interested a slice of time in Memphis.  </p>
+				<p>As the project continues and more voices are added, a more comprehensive understanding of who we are will emerge.</p>
+				
+				<p>If you are interested in participating, please 
+				<a href="#contact" data-modal-open>contact me</a>.
+				</p>
+			</div>
+
+		</div>
 	</div>
 
-	<script src="./js/modal.js"></script>
-	<script type="text/javascript" src="./js/script.js"></script>
 
-	<!-- interviewsPage.js defines where to add content and modal -->
-	<script type="text/javascript" src='./js/interviewPage.js'></script>
-
-	<!-- interviews.js stores all the interviews -->
-	<script type="text/javascript" src='./js/interviews.js'></script>
+	<div id='contact' class='vanilla-modal modal-hider'>
+		<div class='smallModal'>
+		<p>If you would like your views to be a part of this project, or you would like more information,  please contact:</p><br/>
+		<p>Peter</p>
+		<p>MemphisViews@outlook.com</p>
+		<p>901-304-6266</p>
+		</div>
+	</div>
+	
 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -65,6 +75,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   ga('send', 'pageview');
 
 </script>
+
 </body>
 </html>
-	
