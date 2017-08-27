@@ -16,17 +16,19 @@ var createImage = function(name){
 	return image;
 };
 
-var createModalContent = function(name, array, image){
+var createModalContent = function(name, array){
 	var modal = document.createElement('div');
 	var interview = document.createElement('div');
 	interview.classList.add('interview');
-	
+
 	for(var i = 0; i < array.length; i++){
 		(i % 2) == 0 ? makeQuestion(array[i], interview) : makeAnswer(array[i], interview)
 	}
 
 	modal.insertAdjacentElement('beforeend', interview);
-	modal.insertAdjacentElement('beforeend', image);
+	modal.insertAdjacentElement('beforeend', createImage(name));
+
+	console.log(modal);
 
 	modal.setAttribute('id', name);
 	modal.classList.add('vanilla-modal', 'modal-hider');
@@ -50,7 +52,7 @@ var addToPage = function(link, element, className){
 		var newElement = document.createElement('div');
 		newElement.classList.add('panel');
 		newElement.insertAdjacentElement('beforeend', link);
-		content.insertBefore(newElement, content.firstChild);
+		content.appendChild(newElement);
 	} else {
 		// add link that opens modal
 		content.insertAdjacentElement('beforeend', link);

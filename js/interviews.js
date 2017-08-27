@@ -5,7 +5,7 @@
 // ]);
 
 /* template 
-createInterview('', '', [
+createInterview('', '', true, [
 	'What is your hometown?',
 	'',
 	'If you could move to another city, would you?',
@@ -33,7 +33,91 @@ createInterview('', '', [
 ]);
 */
 
-createInterview('Willie', 'Southaven, MS', [
+createInterview('Rob', 'Highlands', true, [
+	'What is your hometown?',
+	'Born and raised in Memphis, Tennessee',
+	'If you could move to another city, would you?',
+	'Probably not.',
+	'What neighborhood do you live in?',
+	'I currently live in the Highlands neighborhood. ',
+	'How long have you lived in Memphis? ',
+	'20 out of my 24 years.',
+	'How would you describe the City of Memphis in three words? ',
+	'Authentic, unique, creative.',
+	'What were your first impressions of Memphis? ',
+	'Very involved. Whether that was comping downtown  to ride bicycles up and down the riverfront or going to the Fire Museum  or the Civil Rights Museum or going downtown to play in the fountains . There was always a reason to come downtown. ',
+	'What is your current impression of Memphis? ',
+	'My current impression is that we are on the verge of a lot of amazing things happening. And that in three years downtown Memphis is going to be unrecognizable. ',
+	'Do you feel Memphis has improved while you have lived here? ',
+	'Absolutely. ',
+	'What is your funniest story about living in Memphis? ',
+	'This is not so much ha-ha funny.  The number of times I run into people I know downtown is insane.  I mean I can be walking downtown, every time I come downtown I see people that I know.  Memphis is the biggest small town that I know of. ',
+	'If you could change something about Memphis, what would it be? ',
+	'I would push the redevelopment of old buildings forward at a more rapid rate.  And increase the living population downtown, again at a more rapid rate. ',
+	'This web site only captures a snapshot in time.  What would you like someone twenty years from now who reads this to know about you? ',
+	'I think that one of the things that I stand for with my friend group is that there are always ways to be involved with in Memphis. Whether that is entertainment. Whether that is volunteer and charity work. Whether that is career based.  There are so many ways to be involved in Memphis. And it is so easy to do it.',
+	'What is your favorite thing about Memphis? ',
+	'Now that is the hard question.  My favorite thing about Memphis is.. one of my favorite things that happens in Memphis is the Midnight Bike Classic which is a 15 mile bike ride with anywhere between three to five thousand participants  that go through the streets of downtown and midtown Memphis at midnight. For fifteen miles all you hear are the whir, whir, whir of bike chains and the click, click, click of gears. But that plays off of how quickly Memphis has become a bike friendly city. While we were not ranked in the top fifty bike friendly cities in the nation, we did receive an honorable mention for how quickly we have turned around. And by the end of 2017, we will have over 320 miles of bike lanes within the City and even more on the horizon. '
+]);
+
+createInterview('Nancy', 'Cooper Young', true, [
+	'What is your hometown?',
+	'I always want to say Memphis, but I was born in San Diego. Military brat.',
+	'If you could move to another city, would you?',
+	'Yes',
+	'What city?',
+	'I have thought about that, and there are a lot of cities that I love. Recently I have grown very fond of Tulsa. I like Salado, Arkansas, but for me, Memphis is home and will always be my home base.',
+	'What neighborhood do you live in?',
+	'I recently moved to Cooper Young, just since May when we had the power outage.  But prior to that, I have lived the last 20 years in the Raleigh area.',
+
+	'How would you describe the City of Memphis in three words? ',
+	'Merciful, turbulent, and alluring.',
+	'What were your first impressions of Memphis? ',
+	'It has changed over the years. When I was a kid, Memphis was home where my parents brought us back to but I lived many places because my Dad was in the Navy.  So I saw a lot of parts of the world:  Asia, the west coast, so when I came to Memphis I was thinking that Memphis was a little backwards. I felt that there was so much more that I was fortunate to see than other people. And I didn’t look forward to coming here.  For example, when I was in Japan, I just loved it there and the thought of moving back to Memphis horrified me.  But the longer I am here, the more I embrace it.  And I see that with all the changes in Memphis, its so different, but then it is the same as it ever was. When I came back in 7th grade, I was surprised that they were saying the Lord’s Prayer every morning in class. Nothing against it, but I was like “wow!”.  It was just diving into the Bible Belt was just very different for me in those early junior high school years. ',
+	'What is your current impression of Memphis? ',
+	'I love it. I defend it. I embrace it. I long for it when I am gone. And I jump for joy when I get to leave.',
+	'Do you feel Memphis has improved while you have lived here? ',
+	'Definitely. It some ways it has improved a lot, in other ways it is not so nice. But I have seen improvement.',
+	'What is your funniest story about living in Memphis? ',
+	'There’s so many, but in my early years, performing in a band, we used to do some fun things to try to get crowds to come see us. And one Valentine’s Day I had the brainstorm to fill a piñata with breath mints and condoms. I have no idea why. I was young and I thought it was funny.  We had the piñata set up above us. I had recently done a photoshoot with Steve Cohen. I think he might have been a Senator. He is a Congressman now, right? Somehow he was there and while blindfolded and using my drumstick, he put a good dent in it. And that is just one silly thing that happened, that hasn’t happened to a lot of other folks.',
+	'If you could change something about Memphis, what would it be? ',
+	'Tolerance towards others. I see that we still have a lot of exclusion from some groups of people towards others. It could be a sign of the times. I think I would also change the way people, I think something has shifted in how we respect Memphis as a plot of this earth. Because it used to be so much more beautiful and clean when I was a kid. ',
+	'This web site only captures a snapshot in time.  What would you like someone twenty years from now who reads this to know about you? ',
+	'I would hope to that they might like some of the music that I make and some of the art that I created. And I would hope that there were enough people that still remember me, if I were not here in 20 years, that might have something good to say. A good memory rather than something bad. I strive to make people feel better about what it is that they do. And that we all are important one way or another in the big picture and as insignificant you think your contribution is to the street or the group of folks that you hang out with, it’s not insignificant in the big picture.',
+	'What is your favorite thing about Memphis? ',
+	'It’s got to be the mystery. The mystique.'
+]);
+
+createInterview('Mark', 'Central Gardens', true, [
+	'What is your hometown?',
+	'My hometown is Long Beach, California. Actually Cal Heights  I consider my hometown but we moved around a lot. ',
+	'If you could move to another city, would you?',
+	'Yes',
+	'What city?',
+	'The only city I would consider moving to is New York. Manhattan.  We have been here less than two years. I fell in love with Memphis to the point where I feel that I have such a purpose here, that I wouldn’t move. I would be happy having dual residency.',
+	'What neighborhood do you live in?',
+	'Central Gardens',
+	'How long have you lived in Memphis? ',
+	'Less than two years',
+	'How would you describe the City of Memphis in three words? ',
+	'Oh my gosh, three adjectives. It is tough to pick three. I would say, first of all, diverse, which I think would surprise a lot of people who aren’t from here.  Complex.  And Soulful.',
+	'What were your first impressions of Memphis? ',
+	'My first impression was based on a few visits here. My first impression had everything to do with the Poplar corridor which is to say that I didn’t see anything unique. Memphis seemed like so many other cities I had seen that seemed stuck in the city planning development that were stuck in the 60s and 70s. With a lot of commercial signage, chain stores and restaurants, and I didn’t see everything about Memphis that I was going to see and learn. But it didn’t talk long for me to discover “Memphis”, the soulful, complex part of it. Fell in love with it. Fell in love with all the complexities, fell in love with the controversies, fell in love with the dark history, fell in love with what Memphis could be, with maybe wants to be, so maybe my first impressions were all over the place. From learning what East Memphis was all about, what Germantown was all about, compared to downtown Memphis with South Main and Midtown, which I completely fell in love with and very much felt at home in. That was the thing that surprised me the most. Especially Midtown. That I felt “at home.”  Growing up in California as I did, I never felt like I was “at home.” ',
+	'What is your current impression of Memphis? ',
+	'My current impression, I still have that feeling of being “at home”, and I have the feeling that as much as I have explored already, I feel like the onion where I have only peeled the first few layers and I keep getting to meatier and meatier stuff when it comes to understanding the mentality of Memphis, the history of Memphis . And it was the funniest thing today during yoga, I had this vision, because I have been exploring the history of Memphis so much that I keep thinking about what I once heard someone say that “any town that grew up on the cotton industry, is cursed, because of the slave trade.”  I thought that is interesting. And then I thought that maybe Memphis has two curses. The cotton trade and also built on Indian ground; Chickasaw bluffs. I thought I wonder if there is more to that. Everyone I talk to talks about ghosts. And I wonder if there is more to it than just the cotton trade. So impression is that I have peeled away a few layers of the onion and there are a lot of layers still to peel away.',
+	'Do you feel Memphis has improved while you have lived here? ',
+	'I think so. It seemed to be improving when I got here. And now I have seen a little wave, little waves up and down. It seems that there are more battles to fight now than when I got here but that could be because I am just more aware of them. And when I say there are more battles to fight it is because when I first got here, it was all about the Greensward. But now it is the MLGW building, the southern rail yard, the Ellis building downtown, a neighborhood in Frayser, and you could go on and on. But I think it has continued to go on the upswing.',
+	'What is your funniest story about living in Memphis? ',
+	'I think the funniest, most interesting story, is when we were first living in the Kimbrough. We lived in the Kimbrough for a little over a year. So Kimbrough Towers right on Union. And our apartment was right on top of Union. And from where we were, we could see people coming and going to the liquor store downstairs. And I would see all kinds of characters. I would see mentally ill people walking down the street talking to themselves, I would see people pushing grocery carts, I would see limousines pulling up at 10:45 before the liquor store closed. One night we woke up to a “lady of the evening” arguing with a pimp. We have heard gunshots from up there.  I think that is the most interesting, to see every walk of life when it comes to Midtown Memphis , to see it all right there in front of you like a show on a daily basis. And also to learn about Union Avenue and how messed up it is as far as traffic goes. And to see a traffic accident just about every day. ',
+	'If you could change something about Memphis, what would it be? ',
+	"My first thought was something about a hidden racism.  But I keep thinking about this and what I'd change would be that thing that I can't quite put my finger on, that thing that is the motivation behind some of the nonsensical issues that pop up in this town, things that leave most of us shaking our heads, like the Greensward issue.  Maybe it's racism, maybe it's a good ol' boy mentality, maybe it's old, big money, or maybe it's an agenda only a handful of people know. I haven't figured out what it is yet, but whatever it is, I'd change that. ",
+	'This web site only captures a snapshot in time.  What would you like someone twenty years from now who reads this to know about you? ',
+	'What would you like someone twenty years from now who reads this to know about you? I think that “he came to Memphis as an outside but immediately wanted to do something important for Memphis.” I hope that that happens. I hope that twenty years from now we can say that “he did do something important for Memphis.”  And as soon as possible. I turned 50 this year and I feel that I don’t have a lot of time. We can add that, that coming here I feel like I have been gifted with a second life. ',
+	'What is your favorite thing about Memphis? ',
+	'My favorite thing about Memphis is, that is a hard one. First of all, it is a long list. You know, I have to say, it has to be the people. The history of this town is just amazing and not enough of the rest of the world knows how much history is here. And for better or worse, the people make this town. '
+]);
+
+createInterview('Willie', 'Southaven, MS', false, [
 	'What is your hometown?',
 	'Roland Fork, MS, in the deep delta.',
 	'If you could move to another city, would you?',
@@ -60,7 +144,7 @@ createInterview('Willie', 'Southaven, MS', [
 	'I like the way that Memphians really don’t care about how people do it in other places. People used to say, “well, that’s not how they do it in New York, that’s not how they do it in LA, or something,.” There are very few places that are like that. New Orleans  is like that but certainly Memphis is one of those places. They are here doing is kind of the Memphis way. And I like that, whether it is right or wrong. You know they are not pretending in any way. I always think about what my daughter Savannah went to Los Angeles years ago. She had this dream to go live and work in Los Angeles. She went there, and this is about 7 or 8 years ago. And she had been there about a month and she said, “I gotta tell you, LA people are different from Memphis people in this way: they act like they think cool people act. They are acting like that.” She said, “Memphis people are just cool.” You know we are not looking to somebody else to say here is how I should behave, here is how I should react to things. Just Memphis people have that kinda cool. '
 ]);
 
-createInterview('Keith', 'Central Gardens', [
+createInterview('Keith', 'Central Gardens', false, [
 	'What is your hometown?',
 	'My hometown is Hayti, Missouri which is about 120 miles from here. But when I was growing up in the 60s and early 70s, it would take about 2 hours to drive here. Now it takes about an hour and 20 minutes because Interstate 55 was not complete. So in some ways it was a much greater distance to get there than it is now. In spite of the fact that Hayti was my hometown, Memphis was always my Mecca for us. When I say “us”, I am talking about my family. We would come here 3 or 4 times a year .',
 	'If you could move to another city, would you?',
@@ -88,7 +172,7 @@ createInterview('Keith', 'Central Gardens', [
 ]);
 
 
-createInterview('Jay', 'Speedway Terrace', [
+createInterview('Jay', 'Speedway Terrace', false, [
 	'What is your hometown?',
 	'New York City. Born in the Bronx. Grew up much of my childhood in Rockaway Beach, by the ocean. Wasn’t a typical city life. After college I moved to Park Slope, in Brooklyn, which is now the only neighborhood outside of Manhattan that is more expensive than Manhattan . It is the largest concentration of brownstones in the country. ',
 	'If you could move to another city, would you?',
@@ -118,7 +202,7 @@ createInterview('Jay', 'Speedway Terrace', [
 
 /*  --------------------------------------------
 ------  Ronnie ---------------------- */
-createInterview('Ronnie', 'Frayser', [
+createInterview('Ronnie', 'Frayser', false, [
 	'What is your hometown?',
 	'Memphis, TN',
 	'If you could move to another city, would you?',
@@ -147,7 +231,7 @@ createInterview('Ronnie', 'Frayser', [
 
 /* ---------------------------------------------------
 ----- Ted ------------------ */
-createInterview('Ted', 'Central Gardens', [
+createInterview('Ted', 'Central Gardens', false, [
 	'What is your hometown?',
 	'Knoxville, Tennessee',
 	'If you could move to another city, would you?',
@@ -174,7 +258,7 @@ createInterview('Ted', 'Central Gardens', [
 	'I love the food!  I love Memphis food.  When I used to live in Greensboro, North Carolina I daydreamed about a Huey’s hamburger or a Rendezvous rib or a Gibson’s doughnut or a Gus’s fried chicken. I just think that Memphis has the most incredible food from places that are total hole in the walls to best dining.  My fiancé’s friends, when they come from New York they go to Tsunami and they think Tsunami is one of the best restaurants in the country. My favorite things about Memphis are the people and the places I can eat.'
 ]);
 
-createInterview('Karen', 'East Memphis', [
+createInterview('Karen', 'East Memphis', false, [
 	'What is your hometown?',
 	'Merida, Yucatan, Mexico',
 	'If you could move to another city, would you?',
@@ -201,7 +285,7 @@ createInterview('Karen', 'East Memphis', [
 	'The way I feel about it. I feel at home.  I feel safe here. Which is weird because everyone else feels different.  I feel that I have made a home out of a completely foreign land. I just feel embraced and appreciated and loved and I am very grateful for that.'
 ]);
 
-createInterview('Kandra', 'Central Gardens', [
+createInterview('Kandra', 'Central Gardens', false, [
 	'What is your hometown?',
 	'West Brach, Iowa.  A very small town.',
 	'If you could move to another city, would you?',
@@ -230,7 +314,7 @@ createInterview('Kandra', 'Central Gardens', [
 	'The people.  I’ve met a lot of very interesting people and being an instructor at the Kroc has allowed me to meet people I would never meet  because it is a real community. Socially integrated which is what they wanted when they created it.  So I would never have been able to meet them and yet we all get on well. I think people have become friends that I would never have known before. There are just a lot of really wonderful people in the world and in Memphis I seem to have found a lot of them.'
 ]);
 
-createInterview('Linley', 'Cooper Young', [
+createInterview('Linley', 'Cooper Young', false, [
 	'What is your hometown?',
 	'Memphis',
 	'If you could move to another city, would you?',
@@ -257,7 +341,7 @@ createInterview('Linley', 'Cooper Young', [
 	'Midtown.  I love that I go out places and see people I know. '
 ]);
 
-createInterview('Golightly', 'Cooper Young', [
+createInterview('Golightly', 'Cooper Young', false, [
 	'What is your hometown?',
 	'Mobile, AL',
 	'If you could move to another city, would you?',
@@ -286,7 +370,7 @@ createInterview('Golightly', 'Cooper Young', [
 	'Maybe those Makedas cookies? Or the people.  I have made so many friends. And the grittiness.  It is not gentile but also with that southern hospitality. And if you could put that in a cookie it would be Makeda’s cookies.'
 ]);
 
-createInterview('Yvonne', 'Midtown', [
+createInterview('Yvonne', 'Midtown', false, [
 	'What is your hometown?',
 	'Stark, FL, I call it “prison country”. North central Florida, we have a lot of prisons there. It is a great place to move out of.',
 	'If you could move to another city, would you?',

@@ -1,4 +1,4 @@
-var createInterview = function(name, neighborhood, array, isTrue){
+var createInterview = function(name, neighborhood, isTrue, array){
 	var link = createLink(name);
 	var image = createImage(name);
 	link.insertAdjacentHTML('beforeend', name + ', ' + neighborhood);
